@@ -1,0 +1,111 @@
+\documentclass{beamer}
+
+\usetheme{Antibes}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\title[Laxman&,Aashrith]{Q.no. 6 in jee linalg 2d}
+\subtitle{Matrix Project}
+\author{Sai Laxman-EE18BTECH11049\\Aashrith-EE18BTECH11035}
+
+
+\begin{document}
+
+\begin{frame}
+\titlepage    
+\end{frame}
+
+\section{Question}
+\begin{frame}{Geometric Question}
+The sides of a rhombus $ABC$ are parallel to the
+lines
+$$
+\begin{bmatrix}
+1 & -1
+\end{bmatrix}
+X+2=0\longrightarrow (1)$$
+$$
+\begin{bmatrix}
+7 & -1
+\end{bmatrix}
+X+3=0\longrightarrow (2)$$
+If the diagonals of the rhombus intersect at
+$$P=
+\begin{bmatrix}
+1 \\
+2
+\end{bmatrix}
+$$
+and the vertex $A$ (different) from the origin is
+on the y-axis, then find the ordinate of A.
+\end{frame}
+\begin{frame}
+\begin{figure}
+    \includegraphics[scale=0.45]{figs/plot.jpeg}
+\end{figure}
+\end{frame}
+\section{Solution}
+
+\begin{frame}
+Shifting the origin to 
+\begin{bmatrix}
+1 \\
+2
+\end{bmatrix}
+we get the new equations as\\
+\begin{bmatrix}
+1 & -1
+\end{bmatrix}
+X+1=0\\
+\begin{bmatrix}
+7 & -1
+\end{bmatrix}
+X+8=0\\
+The slope of the doesn't change if change the origin.
+
+\end{frame}
+\begin{frame}
+eq(1) can be written in general form as\\
+\begin{bmatrix}
+t-1 \\ t
+\end{bmatrix}\\
+By using linear transformation of matrices We can rotate
+\begin{bmatrix}
+t-1 \\ t
+\end{bmatrix}\\
+with respect to origin by multiplying with this matrix\\
+\begin{bmatrix}
+\cos\theta & -\sin\theta \\
+\sin\theta&\cos\theta
+\end{bmatrix}\\
+where \theta=acute angle between original two equations\\
+\end{frame}
+\begin{frame}
+So after rotation we get the point as
+\begin{bmatrix}
+t/5+1/5 \\ 7t/5+7/5
+\end{bmatrix}\\
+\begin{bmatrix}
+7 & -1
+\end{bmatrix}
+X=5\\
+Solving the obtained equation with eq(1)\\
+\begin{bmatrix}
+7 & -1\\1&-1
+\end{bmatrix}
+X=
+\begin{bmatrix}
+5 \\-1
+\end{bmatrix}\\
+upon Solving we get\\
+
+\begin{bmatrix}
+-2/3 \\1/3
+\end{bmatrix}\\
+So the direction vector of diagnol is
+\begin{bmatrix}
+-2/3 \\1/3
+\end{bmatrix}\\
+
+\end{frame}
+
+\end{document}

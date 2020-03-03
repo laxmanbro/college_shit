@@ -1,0 +1,175 @@
+$date
+	Thu May  2 03:10:49 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module aavs2_test $end
+$var wire 4 ! z [3:0] $end
+$var wire 1 " cout $end
+$var reg 1 # clk $end
+$var reg 1 $ reset $end
+$var reg 4 % u [3:0] $end
+$var reg 1 & v $end
+$var reg 4 ' x [3:0] $end
+$var reg 1 ( y $end
+$scope module a1 $end
+$var wire 4 ) u [3:0] $end
+$var wire 1 & v $end
+$var wire 4 * x [3:0] $end
+$var wire 1 ( y $end
+$var wire 4 + z [3:0] $end
+$var wire 4 , s [3:0] $end
+$var wire 1 " cout $end
+$var wire 4 - c [3:0] $end
+$scope module f1 $end
+$var wire 1 . a1 $end
+$var wire 1 / b1 $end
+$var wire 1 & c1 $end
+$var wire 1 0 s1 $end
+$var wire 1 1 outc $end
+$upscope $end
+$scope module f2 $end
+$var wire 1 2 a1 $end
+$var wire 1 3 b1 $end
+$var wire 1 4 c1 $end
+$var wire 1 5 s1 $end
+$var wire 1 6 outc $end
+$upscope $end
+$scope module f3 $end
+$var wire 1 7 a1 $end
+$var wire 1 8 b1 $end
+$var wire 1 9 c1 $end
+$var wire 1 : s1 $end
+$var wire 1 ; outc $end
+$upscope $end
+$scope module f4 $end
+$var wire 1 < a1 $end
+$var wire 1 = b1 $end
+$var wire 1 > c1 $end
+$var wire 1 ? s1 $end
+$var wire 1 @ outc $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0@
+0?
+0>
+0=
+0<
+0;
+1:
+19
+08
+07
+16
+05
+04
+13
+12
+01
+10
+0/
+0.
+b10 -
+b10 ,
+b101 +
+b10 *
+b10 )
+1(
+b10 '
+1&
+b10 %
+0$
+0#
+0"
+b101 !
+$end
+#10
+1#
+#20
+1:
+14
+19
+00
+11
+b100 !
+b100 +
+05
+b11 -
+16
+1/
+03
+0#
+b1 %
+b1 )
+#30
+1#
+#40
+0:
+09
+06
+04
+02
+b1 !
+b1 +
+10
+b0 -
+01
+b0 ,
+0#
+0&
+0(
+b1 '
+b1 *
+#50
+1#
+#60
+0?
+0>
+0;
+15
+09
+06
+1:
+04
+0/
+13
+18
+b111 !
+b111 +
+10
+b0 -
+01
+0#
+b110 %
+b110 )
+1&
+b10 '
+b10 *
+#70
+1#
+#80
+0#
+#90
+1#
+#100
+0#
+#110
+1#
+#120
+0#
+#130
+1#
+#140
+0#
+#150
+1#
+#160
+0#

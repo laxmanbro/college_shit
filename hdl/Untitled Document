@@ -1,0 +1,11 @@
+The non-restoring divide does not “restore” the remainder to the correct value but leaves it incorrect until the next cycle
+
+The non-restoring algorithm can result in a negative remainder, which is incorrect.  Therefore, a correction step is needed to obtain the correct remainder.  The algorithm to perform non-restoring division is as follows:
+Radix-2 Non-Restoring Divide algorithm [2]:
+1) Shift remainder left 1 bit.
+2) If remainder is negative, add Divisor to the left half of the remainder.  Shift quotient left 1 bit.
+3) If remainder is positive, subtract Divisor from the left half of the remainder.  Shift quotient left 1 bit and add 1.
+4) Repeat for number of bits in divisor.
+5) Correction step: If remainder is negative, add divisor to the remainder to obtain the correct value.
+
+
